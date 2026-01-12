@@ -1,0 +1,21 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: bd8ee462-0e5f-4c32-b87f-fa95dd28ef5e
+  title: Jupyter Book desde 0
+  # description:
+  # keywords: []
+  authors: Fabian Reyes
+  # github:
+  toc:
+    - file: intro.md
+    - file: codigoMarkDown.ipynb
+    - file: MarkDownEj.md
+    - file: NotebookEj.ipynb
+
+
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
