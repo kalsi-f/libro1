@@ -1,0 +1,42 @@
+\documentclass[12pt, letterpaper]{article}
+
+% --- Paquetes de configuración ---
+\usepackage[utf8]{inputenc}    % Para tildes y eñes
+\usepackage[spanish]{babel}    % Idioma español
+\usepackage{amsmath, amssymb}  % Símbolos matemáticos
+\usepackage{graphicx}          % Para insertar imágenes
+\usepackage{geometry}          % Para márgenes
+\geometry{margin=2.5cm}
+
+% --- Título y Autor ---
+\title{Ejemplo de archivo en Latex\LaTeX}
+\author{Tu Nombre}
+\date{\today}
+
+\begin{document}
+
+\maketitle % Crea la portada automáticamente
+
+\section{Introducción}
+Este es un archivo de \LaTeX{} completo. A diferencia de Markdown, aquí tenemos control total sobre el formato. 
+
+\section{Matemáticas Interactivas}
+Podemos escribir ecuaciones complejas de forma profesional. Por ejemplo, la famosa ecuación de Einstein:
+\begin{equation}
+    E = mc^2
+\end{equation}
+
+También podemos usar macros personalizadas. Si definimos un comando para los números reales, se vería así: $\mathbb{R}$.
+
+\section{Listas y Formato}
+Podemos crear listas fácilmente:
+\begin{itemize}
+    \item \textbf{Negrita}: Para resaltar ideas.
+    \item \textit{Cursiva}: Para énfasis.
+    \item \texttt{Código}: Para texto monoespaciado.
+\end{itemize}
+
+\section{Conclusión}
+Este archivo está listo para ser compilado en un PDF. Si estás usando Jupyter Book, puedes importar este contenido o usarlo como base para tu preámbulo.
+
+\end{document}

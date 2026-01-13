@@ -9,10 +9,13 @@ project:
   # github:
   toc:
     - file: intro.md
-    - file: codigoMarkDown.ipynb
-    - file: MarkDownEj.md
-    - file: NotebookEj.ipynb
-
+    - file: 1.ipynb
+    - file: 2.ipynb
+      children:
+      - file: codigoMarkDown.ipynb
+      - file: MarkDownEj.md
+      - file: NotebookEj.ipynb
+      - file: LatexEt.tex
 
 site:
   template: book-theme
