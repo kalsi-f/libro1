@@ -15,6 +15,7 @@ project:
       - file: codigoMarkDown.ipynb
       - file: MarkDownEj.md
       - file: NotebookEj.ipynb
+      - file: LateEjemplo.ipynb
       - file: LatexEt.tex
 
 site:
